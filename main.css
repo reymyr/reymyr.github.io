@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #3FC1C9;
+  margin: 0;
+  color: #f5f5f5;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #364F6B;
+  margin: 0;
+  padding: 15px;
+  letter-spacing: 5px;
+}
+
+.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.topnav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #364F6B;
+  top: 0;
+}
+
+.topnav li a {
+  display: block;
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 10px 16px;
+  text-align: center;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+.topnav li a:hover {
+  background-color: #f5f5f5;
+  color: #364F6B;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #f5f5f5;
+  margin: 10px 10px;
+}
+
+.intro-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 30px;
+}
+
+.intro-img img {
+  width: 350px;
+  height: 350px;
+  padding: 10px 10px 50px 10px;
+  margin-top: 100px;
+  background-color: #f5f5f5;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  position: relative;
+  z-index: -1;
+  -webkit-box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  padding: 50px;
+  margin: 60px;
+}
+
+.title h1 {
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.exp-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #364F6B;
+  border-radius: 20px;
+}
+
+.experience ul {
+  margin-top: 10px;
+}
+
+.list-title {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.projects p {
+  font-size: 22px;
+}
+
+.button {
+  font-family: 'Kanit', sans-serif;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #364F6B;
+  border: none;
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  margin: 5px;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.button:hover {
+  background-color: #27394d;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
